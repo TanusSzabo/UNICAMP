@@ -4,16 +4,16 @@ Uma imagem digital é a projeção de uma matriz, que representa a imagem, em um
 
 Nas imagens em tons de cinza PGM (Portable Graymap Format), esse valor descreve a intensidade do ponto projetado que varia de 0 (preto) a 255 (branco). As coordenadas da matriz seguem a ordem raster (de cima para baixo, da esquerda para direita). Abaixo temos um exemplo do conteúdo de um arquivo PGM.
 
-P2
-24 7
-255
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-0 51 51 51 51 0 0 51 51 51 51 0 0 119 119 119 119 0 0 119 119 119 119 0
-0 51 0 0 0 0 0 51 0 0 0 0 0 119 0 0 0 0 0 119 0 0 119 0
-0 51 51 51 0 0 0 51 51 51 0 0 0 119 119 119 0 0 0 119 119 119 119 0
-0 51 0 0 0 0 0 51 0 0 0 0 0 119 0 0 0 0 0 119 0 0 0 0
-0 51 0 0 0 0 0 51 51 51 51 0 0 119 119 119 119 0 0 119 0 0 0 0
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+	P2
+	24 7
+	255
+	0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+	0 51 51 51 51 0 0 51 51 51 51 0 0 119 119 119 119 0 0 119 119 119 119 0
+	0 51 0 0 0 0 0 51 0 0 0 0 0 119 0 0 0 0 0 119 0 0 119 0
+	0 51 51 51 0 0 0 51 51 51 0 0 0 119 119 119 0 0 0 119 119 119 119 0
+	0 51 0 0 0 0 0 51 0 0 0 0 0 119 0 0 0 0 0 119 0 0 0 0
+	0 51 0 0 0 0 0 51 51 51 51 0 0 119 119 119 119 0 0 119 0 0 0 0
+	0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 
 O cabeçalho do arquivo é formado pelas três primeiras linhas, sendo que a primeira linha possui o valor P2, que indica o formato do arquivo; a segunda linha possui dois valores inteiros m e n que representam o número de colunas e linhas, respectivamente; e a terceira linha possui o valor máximo que um pixel pode assumir, no nosso caso, esse valor sempre será 255. Depois do cabeçalho, o arquivo possui n linhas, onde cada linha possui m valores inteiros separados por um espaço em branco. Cada um desses valores representa um pixel da imagem em escala de cinza. Uma imagem no formato PGM pode ser visualizada utilizando este site. Podemos representar as linhas da imagem após o cabeçalho com uma matriz de n linhas e m colunas, onde cada posição da matriz representa um pixel.
 
@@ -32,8 +32,8 @@ Flip é a operação que espelha uma imagem na horizontal ou na vertical. Consid
 
 A seguir exemplificamos as operações de flip horizontal e vertical. Os números na vertical e horizontal de cada imagem representam o número da linha e da coluna, respectivamente.
 
-	![Alt text](https://github.com/TanusSzabo/UNICAMP/MC102/2s2021/12/Flip_Image.png?raw=true)
-	![plot](./Flip_Image.png)
+![Alt text](https://github.com/TanusSzabo/UNICAMP/MC102/2s2021/12/Flip_Image.png?raw=true)
+![plot](./Flip_Image.png)
 
 
 *----------------------- Rotação -----------------------*
