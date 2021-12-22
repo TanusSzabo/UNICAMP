@@ -43,9 +43,9 @@ Dada uma imagem A de n linhas e m colunas, a imagem resultante B da rotação de
 
 A seguir exemplificamos as operações de rotação. Os números na vertical e horizontal de cada imagem representam o número da linha e da coluna, respectivamente.
 
-	Rotação_1.png
+![plot](./Rotação_1.png)
 
-	Rotação_2.png
+![plot](./Rotação_2.png)
 	
 	
 *----------------------- Entrada -----------------------*
