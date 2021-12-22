@@ -32,7 +32,7 @@ Flip é a operação que espelha uma imagem na horizontal ou na vertical. Consid
 
 A seguir exemplificamos as operações de flip horizontal e vertical. Os números na vertical e horizontal de cada imagem representam o número da linha e da coluna, respectivamente.
 
-	Flip_Image.png
+	![alt text](https://github.com/TanusSzabo/UNICAMP/MC102/2s2021/12/Flip_Image.png)
 
 
 *----------------------- Rotação -----------------------*
