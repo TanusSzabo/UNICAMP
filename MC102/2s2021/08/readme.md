@@ -10,7 +10,7 @@ Neste laboratório, dados uma fita de DNA e um primer, o seu programa deve indic
 
 Como exemplo, dada a fita 5ATAGTCTAGGATAGTCT3, o primer 5GAC3 se liga nas posições 4 e 14 (considerando a primeira base do primer).
 
-![plot](./dna_primer.jpg)
+![plot](./dna_primer.png)
 
 Exemplos de entradas e saídas esperadas pelo seu programa:
 
