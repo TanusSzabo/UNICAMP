@@ -4,7 +4,7 @@ Você começou a trabalhar no seu novo emprego em um grande banco. O seu chefe, 
 
 Para ajudar na criação do programa, o seu chefe criou um diagrama para a concessão do crédito. A figura abaixo mostra o diagrama criado pelo seu chefe.
 
-	IMAGEM: arvore.jpg
+![Alt text](arvore.jpg)
 
 Por exemplo, um cliente com um score de 825 pontos, 40 anos de idade, salário de R$ 1.500,00 e saldo de R$ 1.000,00, não deve receber um novo cartão de crédito. Da mesma forma, um cliente com um score de 530 pontos, 30 anos de idade, salário de R$ 3.500,00 e saldo de R$ 8.000,00, pode receber um novo cartão de crédito.
 
