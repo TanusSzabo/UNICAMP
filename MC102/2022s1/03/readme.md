@@ -4,7 +4,7 @@ Você começou a trabalhar no seu novo emprego na BikeMax, uma grande loja onlin
 
 Para ajudar na criação do programa, o seu chefe criou duas tabelas que indicam os modelos recomendados para cada peso e altura, sendo uma tabela para clientes do sexo masculino e outra para clientes do sexo feminino.
 
-![plot](tabela.jpg)
+![plot](tabelas.jpg)
 
 Por exemplo, para um cliente do sexo feminino com peso 65Kg e altura 1,70m deve ser recomendado o modelo BW-03. Da mesma forma, para um cliente do sexo masculino com peso 80Kg e altura 1,65m deve ser recomendado o modelo LX-40.
 
